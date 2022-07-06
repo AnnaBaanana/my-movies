@@ -16,9 +16,6 @@ function Movie({movie, handleEdit}) {
                 <div class="col-sm">
                     <Link to={`/movies/${movie.id}`}>Show More</Link>
                 </div>
-                <div class="col-sm">
-                    <button type="button" class="btn btn-light" onClick={e => setLikeCount(movie.likes++)}>Like! {likeCount} </button>
-                </div>
             </div>
         </div>
     )
