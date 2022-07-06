@@ -13,15 +13,12 @@ function App() {
   const [editMovie, setEditMovie] = useState({})
 
   function helpEditMovie(movie) {
-    console.log("from app edit", movie)
     setEditMovie(movie)
   }
 
   function handleEditMovie() {
     setEditMovie({})
   }
-
-  console.log("from app", editMovie)
 
   return (
     <div className="App">
