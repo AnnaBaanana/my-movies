@@ -14,8 +14,6 @@ function MovieForm({editMovie, handleEditMovie}) {
             rated: ""
     }
 
-    console.log("this is edit Movie:", editMovie)
-
     const [formData, setFormData] = useState(editMovie? editMovie : defaultForm);
 
     function handleFormChange(e) {
@@ -25,26 +23,8 @@ function MovieForm({editMovie, handleEditMovie}) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        if (editMovie.title.length>0) {
-            fetch(`http://localhost:3001/favoriteMovies/${editMovie.id}`, {
-            method: "PATCH",
-            headers: {
-                "Content-Type":"application/json"
-            },
-            body: JSON.stringify(formData)}).then(r => r.json()).then(data => {
-            setFormData({
-                title: "",
-                year: "",
-                image_url: "",
-                genre: "",
-                duration: "",
-                rated: ""})
-            alert("Thank you! Your movie was updated!")
-            history.push("/movies")
-            handleEditMovie()
-            })
-        } else {
-            //if (formData.title.length>0) {
+        if (!editMovie) {
+            console.log("performing post")
             fetch("http://localhost:3001/favoriteMovies", {
             method: "POST",
             headers: {
@@ -62,6 +42,20 @@ function MovieForm({editMovie, handleEditMovie}) {
             history.push("/movies")
             })
             //} else {alert("Enter Valid Movie Title")}
+        } else {
+            console.log("performing patch")
+            fetch(`http://localhost:3001/favoriteMovies/${editMovie.id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(formData)}).then(r => r.json()).then(data => {
+                console.log(data)
+            setFormData(defaultForm)
+            alert("Thank you! Your movie was updated!")
+            history.push("/movies")
+            handleEditMovie()
+            })
         }
     }
 
