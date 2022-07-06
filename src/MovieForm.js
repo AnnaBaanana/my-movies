@@ -31,13 +31,7 @@ function MovieForm({editMovie, handleEditMovie}) {
                 "Content-Type":"application/json"
             },
             body: JSON.stringify(formData)}).then(r => r.json()).then(data => {
-            setFormData({
-                title: "",
-                year: "",
-                image_url: "",
-                genre: "",
-                duration: "",
-                rated: ""})
+            setFormData(defaultForm)
             alert("Thank you! Your movie was submitted!")
             history.push("/movies")
             })
