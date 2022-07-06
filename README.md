@@ -11,7 +11,7 @@ This project allows you to browse a collection of *my* movie recommendations, se
  - Incorporate bootstrap for styling
 
 ## Getting Started:
-- Clone the repository (git@github.com:your-name/my-movies.git)
+- Clone the repository git@github.com:your-name/my-movies.git
 - run ### `npm install`
 - run ### `npm start` to start the app server
 - run ### `npm run server` to start the json server
