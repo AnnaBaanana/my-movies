@@ -1,7 +1,7 @@
 # My Movies Project
 
 ## About the Project:
-This project allows you to browse a collection of *my* movie recommendations, serach them by movie name, add new movies to the collection as well as edit the existing ones.
+This project allows you to browse a collection of *my* movie recommendations, search them by movie name, add new movies to the collection as well as edit the existing ones.
 
 
 ## This project was completed with the the following goals in mind: 
