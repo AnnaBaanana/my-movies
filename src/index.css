@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.welcome {
+  background-color: beige;
+  background-image: url("babel.jpeg");
+  max-width: "100%";
+  height: "2000px";
+}
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder ;
+}

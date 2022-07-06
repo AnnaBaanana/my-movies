@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import {useState} from "react";
+import {Route, Switch} from "react-router-dom";
 import './App.css';
+import NavBar from "./NavBar";
+import HomePage from "./HomePage";
+import MovieBar from "./MovieBar"
+import MovieForm from "./MovieForm";
+import React from "react";
+
+
 
 function App() {
+  const [editMovie, setEditMovie] = useState({})
+
+  function helpEditMovie(movie) {
+    console.log("from app edit", movie)
+    setEditMovie(movie)
+  }
+
+  function handleEditMovie() {
+    setEditMovie({})
+  }
+
+  console.log("from app", editMovie)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Switch>
+        <Route exact path="/movies/add"><MovieForm editMovie={editMovie} handleEditMovie={handleEditMovie}/></Route>
+        <Route path="/movies"><MovieBar helpEditMovie={helpEditMovie}/></Route>
+        <Route exact path="/"><HomePage /></Route>
+      </Switch>
     </div>
   );
 }
