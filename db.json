@@ -1,0 +1,112 @@
+{
+  "favoriteMovies": [
+    {
+      "id": 1,
+      "title": "Babel",
+      "year": 2006,
+      "genre": "Drama",
+      "duration": 143,
+      "rated": "R",
+      "image_url": "https://images.mubicdn.net/images/film/1784/cache-9049-1481122106/image-w1280.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Curious Case of Benjamin Button",
+      "year": 2008,
+      "genre": "Drama",
+      "duration": 166,
+      "rated": "PG-13",
+      "image_url": "https://static01.nyt.com/images/2008/11/02/arts/02kehr_600.JPG"
+    },
+    {
+      "id": 3,
+      "title": "The Proposal",
+      "year": 2009,
+      "genre": "Romance",
+      "duration": 108,
+      "rated": "PG-13",
+      "image_url": "https://static01.nyt.com/images/2009/06/19/movies/proposal_600.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Biutiful",
+      "year": 2010,
+      "genre": "Drama",
+      "duration": 148,
+      "rated": "R",
+      "image_url": "https://www.sobrosnetwork.com/wp-content/uploads/2021/12/5d0978730d9c98a0338df19e7ccd3bfd.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Lost City",
+      "year": 2022,
+      "genre": "Romance",
+      "duration": 112,
+      "rated": "PG-13",
+      "image_url": "https://resizing.flixster.com/l5sXf2W2NE6x635YtA_EdohkXLo=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/499/667/thumb_E3B20734-5135-4952-99B3-89793069AB47.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Blind Side",
+      "year": 2009,
+      "genre": "Biography",
+      "duration": 129,
+      "rated": "PG-13",
+      "image_url": "https://cdn.onebauer.media/one/empire-tmdb/films/22881/images/qVjKZMB0IdOc2JlwiiGsuKTvTJs.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill"
+    },
+    {
+      "id": 8,
+      "title": "Three Billboards Outside Ebbing, Missouri",
+      "year": 2017,
+      "genre": "Drama",
+      "duration": 115,
+      "rated": "R",
+      "image_url": "https://cornellsun.com/wp-content/uploads/2017/12/three-billboards-outside-ebbing-missouri.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Bridesmaids",
+      "year": 2011,
+      "genre": "Comedy",
+      "duration": 125,
+      "rated": "R",
+      "image_url": "https://mediaproxy.salon.com/width/1200/https://media.salon.com/2019/12/bridesmaids-01.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Wedding PLanner",
+      "year": 2001,
+      "genre": "Comedy",
+      "duration": 103,
+      "rated": "PG-13",
+      "image_url": "https://assets.vogue.com/photos/5fce9177dad9ba0c310e4d48/master/w_2560%2Cc_limit/BKBXF9.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Devil Wears Prada",
+      "year": 2006,
+      "genre": "Comedy",
+      "duration": 109,
+      "rated": "PG-13",
+      "image_url": "https://media.vanityfair.com/photos/576c585744d93e6e4482bb27/master/pass/meryl-streep-devil-wears-prada.jpg"
+    },
+    {
+      "title": "Harry Potter and The Deathly Hollows: Part 1",
+      "year": "2010",
+      "image_url": "https://assets.vogue.com/photos/5891f2329c1609bf7a72eda4/master/pass/img-harry-potter_190633726133.jpg",
+      "genre": "Fiction",
+      "duration": "146",
+      "rated": "PG",
+      "id": 12
+    },
+    {
+      "title": "Shrek",
+      "year": "2001",
+      "image_url": "https://static.independent.co.uk/2021/05/19/16/shutterstock_editorial_5884037o.jpg?quality=75&width=982&height=726&auto=webp",
+      "genre": "Kids",
+      "duration": "90",
+      "rated": "G",
+      "id": 13
+    }
+  ]
+}
