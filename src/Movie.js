@@ -1,9 +1,6 @@
-import {useState} from "react";
 import {Link} from "react-router-dom";
 
 function Movie({movie, handleEdit}) {
-    const [likeCount, setLikeCount] = useState(movie.likes);
-
 
     return (
         <div class="card" style={{ width: "20rem", padding: "1px" }}>
