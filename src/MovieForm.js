@@ -40,6 +40,7 @@ function MovieForm({editMovie, handleEditMovie}) {
             else {alert("Enter Valid Movie Title")}
         } else { 
             console.log("performing patch")
+            if (formData.title) {
             fetch(`http://localhost:3001/favoriteMovies/${editMovie.id}`, {
             method: "PATCH",
             headers: {
@@ -51,7 +52,7 @@ function MovieForm({editMovie, handleEditMovie}) {
             alert("Thank you! Your movie was updated!")
             history.push("/movies")
             handleEditMovie()
-            })
+            })} else {alert("Enter Valid Movie Title")}
         } 
     }
 
