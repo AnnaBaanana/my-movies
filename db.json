@@ -107,6 +107,15 @@
       "duration": "90",
       "rated": "G",
       "id": 13
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "id": 14,
+      "image_url": "https://media.vanityfair.com/photos/5d8535de6879fa00082e6ed9/master/pass/the-Shawshank-Redemption-movie-lede.png",
+      "year": "1994",
+      "duration": "142",
+      "genre": "Drama",
+      "rated": "PG13"
     }
   ]
 }
