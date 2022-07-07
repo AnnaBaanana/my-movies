@@ -116,6 +116,11 @@
       "duration": "142",
       "genre": "Drama",
       "rated": "PG13"
+    },
+    {
+      "title": "Forrest Gump",
+      "id": 15,
+      "image_url": "https://www.denofgeek.com/wp-content/uploads/2022/05/Tom-Hanks-as-Forrest-Gump.jpeg?fit=1200%2C714"
     }
   ]
 }
