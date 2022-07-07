@@ -1,10 +1,12 @@
 import {useHistory} from "react-router-dom";
+import Counter from "./Interval";
 
 function HomePage() {
     const history = useHistory();
 
     function handleHomeClick() {
-        history.push("/movies")
+        //history.push("/movies")
+        console.log("clicked")
     }
 
         return (<div className="welcome" onClick={handleHomeClick}>
@@ -17,6 +19,8 @@ function HomePage() {
           <br />
           <br />
         </div>
+        <br/><br/><br/><br/>
+        <Counter />
       </div>)    
     
     }
