@@ -18,6 +18,7 @@ This project allows you to browse a collection of *my* movie recommendations, se
     |-Search
     |-MovieDetail
     |-MovieList
+      |-Movie
 
 
 ## Getting Started:
