@@ -1,6 +1,8 @@
 # My Movies Project
 
 ## About the Project:
+A React App that allows you to keep a neatly organized movie list!
+
 This project allows you to browse a collection of *my* movie recommendations, search them by movie name, add new movies to the collection as well as edit the existing ones.
 
 
@@ -11,15 +13,16 @@ This project allows you to browse a collection of *my* movie recommendations, se
  - Incorporate bootstrap for styling
 
  ## Project Component Tree:
- App
-  |-Home
-  |-NavBar
-  |-MovieForm
-  |-MovieBar
-    |-Search
-    |-MovieDetail
-    |-MovieList
-      |-Movie
+ ![Alt text](src/App_Tree.png?raw=true "App Component Tree")
+ - App
+    |--Home
+    |--NavBar
+    |--MovieForm
+    |--MovieBar
+        |--Search
+        |--MovieDetail
+        |--MovieList
+            |--Movie
 
 
 ## Getting Started:
