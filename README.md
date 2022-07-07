@@ -19,10 +19,10 @@ This project allows you to browse a collection of *my* movie recommendations, se
     |--NavBar
     |--MovieForm
     |--MovieBar
-        |--Search
-        |--MovieDetail
-        |--MovieList
-            |--Movie
+        |---Search
+        |---MovieDetail
+        |---MovieList
+            |----Movie
 
 
 ## Getting Started:
