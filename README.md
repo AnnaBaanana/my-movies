@@ -10,6 +10,13 @@ This project allows you to browse a collection of *my* movie recommendations, se
  - Persist data using a json server
  - Incorporate bootstrap for styling
 
+ ## Project Component Tree:
+ App
+  |-Home
+  |-MovieForm
+  |-MovieBar
+
+
 ## Getting Started:
 - Clone the repository git@github.com:your-name/my-movies.git
 - run ### `npm install`
