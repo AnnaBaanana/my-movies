@@ -16,7 +16,6 @@ function MovieForm({editMovie, handleEditMovie}) {
 
     const [formData, setFormData] = useState(editMovie? editMovie : defaultForm);
     const [needEdit, setNeedEdit] = useState(Object.entries(editMovie).length>0)
-    console.log(needEdit)
 
     function handleFormChange(e) {
         const newFormData = {...formData, [e.target.name]: e.target.value}
