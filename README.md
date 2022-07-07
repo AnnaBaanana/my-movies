@@ -15,6 +15,9 @@ This project allows you to browse a collection of *my* movie recommendations, se
   |-Home
   |-MovieForm
   |-MovieBar
+    |-Search
+    |-MovieDetail
+    |-MovieList
 
 
 ## Getting Started:
