@@ -26,6 +26,7 @@ function MovieForm({editMovie, handleEditMovie}) {
         e.preventDefault();
         if (!needEdit) {
             console.log("performing post")
+            if (formData.title) {
             fetch("http://localhost:3001/favoriteMovies", {
             method: "POST",
             headers: {
@@ -35,9 +36,9 @@ function MovieForm({editMovie, handleEditMovie}) {
             setFormData(defaultForm)
             alert("Thank you! Your movie was submitted!")
             history.push("/movies")
-            })
-            //} else {alert("Enter Valid Movie Title")}
-        } else {
+            })}
+            else {alert("Enter Valid Movie Title")}
+        } else { 
             console.log("performing patch")
             fetch(`http://localhost:3001/favoriteMovies/${editMovie.id}`, {
             method: "PATCH",
@@ -51,7 +52,7 @@ function MovieForm({editMovie, handleEditMovie}) {
             history.push("/movies")
             handleEditMovie()
             })
-        }
+        } 
     }
 
 
