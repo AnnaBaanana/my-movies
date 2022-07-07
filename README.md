@@ -35,4 +35,7 @@ This project allows you to browse a collection of *my* movie recommendations, se
 Keep this app handy to keep track of your favorite movies (especially if you are like me that always forgets what their favorite movie is when asked) and share with your friends to keep expanding the collection!
 
 ## App Walk-Through:
-[See here for app walk-through](https://youtu.be/Tr6b7-vz59o)
+[See here for app MVP walk-through](https://youtu.be/Tr6b7-vz59o)
+
+## Project Maintainer
+[AnnaBaanana](https://github.com/AnnaBaanana)
