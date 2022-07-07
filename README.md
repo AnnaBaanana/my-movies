@@ -13,6 +13,7 @@ This project allows you to browse a collection of *my* movie recommendations, se
  ## Project Component Tree:
  App
   |-Home
+  |-NavBar
   |-MovieForm
   |-MovieBar
     |-Search
