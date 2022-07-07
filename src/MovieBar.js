@@ -24,7 +24,6 @@ function MovieBar({helpEditMovie}) {
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <Search handleSearchValue={handleSearchValue}/>
-                    <button onClick={handleSort}> Sort AZ</button>
                     <div class="col-md-6">
                         <br />
                         <MovieList movies={movies} searchVal={searchVal} editMovie={helpEditMovie}/>
