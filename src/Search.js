@@ -9,7 +9,7 @@ function Search({searchVal, handleSearchValue}) {
             type="search" 
             value={searchVal}
             class="form-control rounded" 
-            placeholder="Search" 
+            placeholder="Search Movies" 
             aria-label="Search" aria-describedby="search-addon"
             onChange={e => handleSearchValue(e.target.value)} />
         </div>
