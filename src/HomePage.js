@@ -19,8 +19,6 @@ function HomePage() {
           <br />
           <br />
         </div>
-        <br/><br/><br/><br/>
-        <Counter />
       </div>)    
     
     }
